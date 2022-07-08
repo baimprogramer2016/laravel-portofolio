@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-porto{
+    color:#fff;
+    text-align: center;
+
+}
+
+.foo1{
+    display: none;
+
+}
+.foo2{
+    background-color: #11538D;
+    padding-bottom:10px;
+}
+button{
+    border:0 solid #fff;
+    background-color: #fff;
+}
+.menu-list a, button{
+    color: rgb(190, 185, 185);;
+}
+
+.menu-list a:hover, button:hover{
+    color: rgb(78, 76, 76);;
+}
+
+@media screen and (max-width: 550px) {
+    .svg{
+        display: none;
+        transition: all 0.9s;
+        color:#fff
+    }
+    .text-porto{
+        height:80px;
+        background-color: #11538D;
+        transition: all 0.9s;
+    }
+    .foo1{
+        display: block;
+        padding-top:10px;
+    }
+    .foo2{
+        display: none;
+    }
+    .table-hover th{
+        display: none;
+    }
+    .table-hover{
+        margin-top: 1rem;
+    }
+    .table-hover td{
+        display: flex;
+        flex-direction: row;
+    }
+}
+tr:nth-child(even) {
+    background-color: rgb(204, 228, 245);
+}
